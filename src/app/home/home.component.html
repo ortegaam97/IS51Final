@@ -4,17 +4,17 @@
     <thead class="thead-dark">
       <tr>
         <th>Customer Name</th>
-        <th scope="col">Tax</th>
-        <th scope="col">Sub Total</th>
-        <th scope="col">Total</th>
+        <th scope="col">Subtotal</th>
+        <th scope="col">Sales Tax</th>
+        <th scope="col">Grand Total</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>{{data.fullName}}</td>
+        <td>{{data.subTotal}}</td>
+        <td>{{data.taxAmount}}</td>
+        <td>{{data.total}}</td>
       </tr>
     </tbody>
   </table>
